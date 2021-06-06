@@ -65,11 +65,11 @@ void printCategories() {
 }
 void printAscOrDesc() {
 	cout << setw(55) << right << char(201); for (int i = 0; i < 15; i++)cout << char(205); cout << char(187) << endl;
-	cout << setw(55) << right << char(186) << "1. Increase" << char(186) << endl;
+	cout << setw(55) << right << char(186) << "1. Increase    " << char(186) << endl;
 	cout << setw(55) << right << char(200); for (int i = 0; i < 15; i++)cout << char(205); cout << char(188) << endl;
 
 	cout << setw(55) << right << char(201); for (int i = 0; i < 15; i++)cout << char(205); cout << char(187) << endl;
-	cout << setw(55) << right << char(186) << "2. Decrease"  << char(186) << endl;
+	cout << setw(55) << right << char(186) << "2. Decrease    "  << char(186) << endl;
 	cout << setw(55) << right << char(200); for (int i = 0; i < 15; i++)cout << char(205); cout << char(188) << endl;
 }
 void printAdminMenu() {
